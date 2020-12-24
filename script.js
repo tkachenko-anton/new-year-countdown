@@ -27,8 +27,8 @@ function updateCountdown() {
 // Added values to DOM
 days.innerHTML = d;
 hours.innerHTML = h < 10 ? '0' + h : h;
-minutes.innerHTML = h < 10 ? '0' + m : m;
-seconds.innerHTML = h < 10 ? '0' + s : s;
+minutes.innerHTML = m < 10 ? '0' + m : m;
+seconds.innerHTML = s < 10 ? '0' + s : s;
 
 }
 
